@@ -3,6 +3,6 @@
 
 //#define LF_STM32
 //#define LF_USB_DEVICE
-//#define LF_THREADING
+#define LF_THREADING
 
 #endif // LFrameworkConfig_h__

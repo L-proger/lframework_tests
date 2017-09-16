@@ -154,6 +154,9 @@
     <ClCompile Include="lframework\Input\Mouse.cpp" />
     <ClCompile Include="lframework\MCU\USBDevice\USBDevice.cpp" />
     <ClCompile Include="lframework\Thread\Thread.cpp" />
+    <ClCompile Include="lframework\Thread\ThreadFreeRTOS.h" />
+    <ClCompile Include="lframework\Thread\ThreadStd.h" />
+    <ClCompile Include="lframework\Thread\ThreadTest.cpp" />
     <ClCompile Include="lframework\UnitTest\UnitTest.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -169,6 +172,7 @@
     <ClInclude Include="lframework\MCU\USBDevice\USBDevice.h" />
     <ClInclude Include="lframework\Thread\Semaphore.h" />
     <ClInclude Include="lframework\Thread\Thread.h" />
+    <ClInclude Include="lframework\Thread\ThreadPlatform.h" />
     <ClInclude Include="lframework\Time\Stopwatch.h" />
     <ClInclude Include="lframework\UnitTest\UnitTest.h" />
   </ItemGroup>
