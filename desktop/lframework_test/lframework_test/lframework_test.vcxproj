@@ -89,6 +89,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,6 +103,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -117,6 +119,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -134,6 +137,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -144,6 +148,29 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="lframeworktest.cpp" />
+    <ClCompile Include="lframework\BitFieldTest.cpp" />
+    <ClCompile Include="lframework\Input\Input.cpp" />
+    <ClCompile Include="lframework\Input\Keyboard.cpp" />
+    <ClCompile Include="lframework\Input\Mouse.cpp" />
+    <ClCompile Include="lframework\MCU\USBDevice\USBDevice.cpp" />
+    <ClCompile Include="lframework\Thread\Thread.cpp" />
+    <ClCompile Include="lframework\UnitTest\UnitTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LFrameworkConfig.h" />
+    <ClInclude Include="lframework\BitField.h" />
+    <ClInclude Include="lframework\Containers\LinkedList.h" />
+    <ClInclude Include="lframework\Debug.h" />
+    <ClInclude Include="lframework\Input\Input.h" />
+    <ClInclude Include="lframework\Input\Keyboard.h" />
+    <ClInclude Include="lframework\Input\KeysStateManager.h" />
+    <ClInclude Include="lframework\Input\Mouse.h" />
+    <ClInclude Include="lframework\MCU\Mcu.h" />
+    <ClInclude Include="lframework\MCU\USBDevice\USBDevice.h" />
+    <ClInclude Include="lframework\Thread\Semaphore.h" />
+    <ClInclude Include="lframework\Thread\Thread.h" />
+    <ClInclude Include="lframework\Time\Stopwatch.h" />
+    <ClInclude Include="lframework\UnitTest\UnitTest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
