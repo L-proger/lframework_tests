@@ -1,0 +1,3 @@
+[submodule "desktop/lframework_test/lframework_test/lframework"]
+	path = desktop/lframework_test/lframework_test/lframework
+	url = https://github.com/L-proger/lframework.git
