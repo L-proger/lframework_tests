@@ -6,14 +6,16 @@
  */
 
 #include "lframework/Thread/Thread.h"
+#include "lframework/Thread/Semaphore.h"
 #include "lframework/UnitTest/UnitTest.h"
 #include "FreeRTOS.h"
+#include "task.h"
 #include "stm32f7xx_hal.h"
 #include <cassert>
 #include <cstdlib>
 #include "ili9325/ili9325.h"
 #include "ili9325/ili9325_fsmc.h"
-#include "lmath/lmath.h"
+#include "lmath/lmath/lmath.h"
 #include "lframework/MCU/USBDevice/USBDevice.h"
 #include "lframework/UnitTest/UnitTest.h"
 
@@ -21,7 +23,7 @@ SRAM_HandleTypeDef hsram1;
 
 using namespace Stm32PlusPlus::Display;
 
-using namespace LFramework::Mcu;
+using namespace LFramework::USB;
 using namespace LFramework;
 
 typedef Ili9325<DisplayFsmcInterface> Lcd;
@@ -32,7 +34,7 @@ extern "C" void _exit(int code){
 	for(;;){}
 }
 
-LFramework::Thread ledThread;
+//LFramework::Thread ledThread;
 
 void ledTask(){
 	__HAL_RCC_GPIOE_CLK_ENABLE();
@@ -82,9 +84,9 @@ extern PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
 UsbDevice usb(&hpcd_USB_OTG_FS);
 
-namespace LFramework{
-	TEST_IMPORT(BitField_8bit)
-}
+
+TEST_IMPORT(BitField_8bit)
+
 
 void mainThread(){
 
@@ -97,9 +99,9 @@ void mainThread(){
 	float3 right = f3.unitX();
 	float4 f4;
 
-	LFramework::ThisThread::setPriority(LFramework::ThreadPriority::Normal);
+	//LFramework::ThisThread::setPriority(LFramework::ThreadPriority::Normal);
 
-	ledThread = std::move(LFramework::Thread("led", 256, LFramework::ThreadPriority::Normal, ledTask));
+//	ledThread = std::move(LFramework::Thread("led", 256, LFramework::ThreadPriority::Normal, ledTask));
 
 	DisplayFsmcInterface::init();
 

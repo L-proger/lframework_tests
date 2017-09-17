@@ -10,4 +10,8 @@
 
 #define CMSIS_DEVICE_FILE "stm32f7xx.h"
 
+#define LF_THREADING
+#define LF_STM32
+#define LF_USB_DEVICE
+
 #endif /* LFRAMEWORKCONFIG_H_ */

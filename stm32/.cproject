@@ -3,7 +3,9 @@
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552" moduleId="org.eclipse.cdt.core.settings" name="Debug">
-				<externalSettings/>
+				<externalSettings>
+					<externalSetting/>
+				</externalSettings>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -47,16 +49,14 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.801864176" name="GNU ARM Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.253254074" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.121360283" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" useByScannerDiscovery="true" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework}&quot;"/>
-									<listOptionValue builtIn="false" value="D:/lmath"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Drivers/CMSIS/Device/ST/STM32F7xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Drivers/STM32F7xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Drivers/CMSIS/Device/ST/STM32F7xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Drivers/STM32F7xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.1179538111" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F746xx"/>
@@ -65,16 +65,14 @@
 							</tool>
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1732113144" name="GNU ARM Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.429052701" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework}&quot;"/>
-									<listOptionValue builtIn="false" value="D:/lmath"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Drivers/CMSIS/Device/ST/STM32F7xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/CMSIS/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Drivers/STM32F7xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Drivers/CMSIS/Device/ST/STM32F7xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Drivers/STM32F7xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Drivers/CMSIS/Include}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1559880792" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F746xx"/>
@@ -88,15 +86,14 @@
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.nousecxaatexit.1371591620" name="Do not use _cxa_atexit() (-fno-use-cxa-atexit)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.nousecxaatexit" useByScannerDiscovery="true" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.nothreadsafestatics.237883859" name="Do not use thread-safe statics (-fno-threadsafe-statics)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.nothreadsafestatics" useByScannerDiscovery="true" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.662878196" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework}&quot;"/>
-									<listOptionValue builtIn="false" value="D:/lmath"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Drivers/CMSIS/Device/ST/STM32F7xx/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Drivers/STM32F7xx_HAL_Driver/Inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/McuFramework/cube/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Drivers/CMSIS/Device/ST/STM32F7xx/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Middlewares/Third_Party/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Drivers/STM32F7xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/stm32/cube/Drivers/CMSIS/Include}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs.1947334418" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F746xx"/>
@@ -133,8 +130,10 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552.1295398151" name="lmath.sln" rcbsApplicability="disable" resourcePath="lmath/lmath.sln" toolsToInvoke=""/>
+					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552.1809397767" name="README.md" rcbsApplicability="disable" resourcePath="lmath/README.md" toolsToInvoke=""/>
 					<sourceEntries>
-						<entry excluding="STM32_USB_Device_Library|STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_tim_template.c|STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_rtc_wakeup_template.c|STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_rtc_alarm_template.c|STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c|sandbox/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_rtc_alarm_template.c|FreeRTOS/Source/portable/Common|sandbox/FreeRTOS/Source/portable/Common|sandbox/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_rtc_wakeup_template.c|sandbox/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c|sandbox/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_tim_template.c|FreeRTOS/Source/portable/GCC/ARM_CM4F" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="lmath/README.md|lmath/lmath.sln|lmath/lmath_test|lmath/lmath_sandbox|STM32_USB_Device_Library|STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_tim_template.c|STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_rtc_wakeup_template.c|STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_rtc_alarm_template.c|STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c|sandbox/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_rtc_alarm_template.c|FreeRTOS/Source/portable/Common|sandbox/FreeRTOS/Source/portable/Common|sandbox/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_rtc_wakeup_template.c|sandbox/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_msp_template.c|sandbox/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_timebase_tim_template.c|FreeRTOS/Source/portable/GCC/ARM_CM4F" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -154,10 +153,10 @@
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552.;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.89393826;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1967224817">
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1732113144;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.828921470">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1732113144;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.828921470">
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.554278552.;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.89393826;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1967224817">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
