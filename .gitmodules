@@ -1,3 +1,9 @@
 [submodule "desktop/lframework_test/lframework_test/lframework"]
 	path = desktop/lframework_test/lframework_test/lframework
 	url = https://github.com/L-proger/lframework.git
+[submodule "stm32/ili9325"]
+	path = stm32/ili9325
+	url = https://github.com/L-proger/ili9325.git
+[submodule "stm32/lframework"]
+	path = stm32/lframework
+	url = https://github.com/L-proger/lframework.git

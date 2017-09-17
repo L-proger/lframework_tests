@@ -153,6 +153,7 @@
     <ClCompile Include="lframework\Input\Keyboard.cpp" />
     <ClCompile Include="lframework\Input\Mouse.cpp" />
     <ClCompile Include="lframework\MCU\USBDevice\USBDevice.cpp" />
+    <ClCompile Include="lframework\MCU\USBDevice\USBTypesTest.cpp" />
     <ClCompile Include="lframework\Thread\Thread.cpp" />
     <ClCompile Include="lframework\Thread\ThreadFreeRTOS.h" />
     <ClCompile Include="lframework\Thread\ThreadStd.h" />
@@ -170,6 +171,7 @@
     <ClInclude Include="lframework\Input\Mouse.h" />
     <ClInclude Include="lframework\MCU\Mcu.h" />
     <ClInclude Include="lframework\MCU\USBDevice\USBDevice.h" />
+    <ClInclude Include="lframework\MCU\USBDevice\USBTypes.h" />
     <ClInclude Include="lframework\Thread\Semaphore.h" />
     <ClInclude Include="lframework\Thread\Thread.h" />
     <ClInclude Include="lframework\Thread\ThreadPlatform.h" />
