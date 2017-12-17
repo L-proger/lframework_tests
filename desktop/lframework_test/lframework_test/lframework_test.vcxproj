@@ -23,7 +23,7 @@
     <ProjectGuid>{55D9F339-BAE5-41F0-BDAC-10549510DDD8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>lframework_test</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -166,6 +166,9 @@
     <ClInclude Include="lframework\BitField.h" />
     <ClInclude Include="lframework\Containers\LinkedList.h" />
     <ClInclude Include="lframework\Debug.h" />
+    <ClInclude Include="lframework\Detect\DetectCPU.h" />
+    <ClInclude Include="lframework\Detect\DetectEndianness.h" />
+    <ClInclude Include="lframework\Detect\DetectOS.h" />
     <ClInclude Include="lframework\Input\Input.h" />
     <ClInclude Include="lframework\Input\Keyboard.h" />
     <ClInclude Include="lframework\Input\KeysStateManager.h" />

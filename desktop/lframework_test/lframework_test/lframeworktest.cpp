@@ -9,6 +9,10 @@
 #include <thread>
 #include <array>
 
+#include "lframework/Detect/DetectOS.h"
+#include "lframework/Detect/DetectEndianness.h"
+#include "lframework/Detect/DetectCPU.h"
+
 using namespace LFramework;
 using namespace LFramework::USB;
 
@@ -172,6 +176,12 @@ namespace UsbPackets {
 }
 
 int main(){
+
+	auto os = LFramework::Detect::operatingSystem();
+
+	auto endianness = LFramework::Detect::endianness();
+	auto endiannessRuntime = LFramework::Detect::endiannessRuntime();
+	auto cpuArch = LFramework::Detect::cpuArchitecture();
 
 	Testing::runAllTests();
 

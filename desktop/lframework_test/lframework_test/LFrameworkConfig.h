@@ -5,7 +5,5 @@
 #define LF_USB_DEVICE
 #define LF_THREADING
 
-#define LF_OS_WINDOWS
-//#define LF_OS_FREERTOS
 
 #endif // LFrameworkConfig_h__
